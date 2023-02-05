@@ -1,0 +1,79 @@
+.hidden{
+    display : none;
+}
+
+#greeting {
+    color : white;
+}
+.content{
+    text-align: center;
+    padding: 5vh;
+    border-radius: 10px;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#weather {
+    text-align: center;
+    left: 35%;
+    top: 0%;
+    color : white;
+}
+
+#todo-form {
+    position: absolute;
+    text-align: left;
+    left : 40%;
+}
+
+#clock{
+    font-size: 400%;
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+ul {
+    height: 40%;
+    overflow: auto;
+  }
+
+#quote > *{
+    color: white;    
+}
+
+#todo-list{
+    margin-top: 5%;
+    margin-left: 36%;
+    text-align: left;
+}
+
+button {
+    margin-left: 2%;
+    background: url( "img/delete.png" );
+    border: none;
+}
+
+li>span {
+    display: inline-block;
+    width: 30%;
+    color: white;
+    opacity:0.8;
+}
+
+.loginBtn{
+    border: none;
+    width : 20px;
+    height: 25px;
+
+}
+
+
+
